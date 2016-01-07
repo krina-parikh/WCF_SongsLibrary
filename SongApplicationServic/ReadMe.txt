@@ -7,6 +7,7 @@ Time taken fordevleopment:
 2. Front UI design:
 	Design - 2-3hrs
 	DataTable integration with WCF service methods - 2hrs
+	Testing - 1hr approx.
 	
 Assumptions:
 1. The XML and SQL data-source for song will be synced every 15mins. Hence both the data-source will be having same Data Records.
