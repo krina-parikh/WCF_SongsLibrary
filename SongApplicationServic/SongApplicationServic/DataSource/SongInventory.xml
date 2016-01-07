@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<music>
+  <artist name="Radiohead">
+    <album Title="The King of Limbs" Id="1">
+      <song Title="Bloom" Length="5:15" SongId="1" TrackNumber="1" Genre="Rock" />
+      <song Title="Coming Home" Length="4:44" SongId="2" TrackNumber="1" Genre="Pop" />
+      <song Title="Little by Little" Length="4:27" SongId="3" TrackNumber="3" Genre="Rock" />
+      <song Title="Feral Feral" Length="3:13" SongId="4" TrackNumber="4" Genre="Rock" />
+      <song Title="Feral Feral" Length="5:01" SongId="5" TrackNumber="5" Genre="Rock" />
+      <song Title="Codex" Length="4:47" SongId="6" TrackNumber="6" Genre="Rock" />
+      <song Title="Give Up the Ghost" Length="4:50" SongId="7" TrackNumber="7" Genre="Rock" />
+      <song Title="Separator" Length="5:20" SongId="8" TrackNumber="8" Genre="Rock" />
+      <song Title="Hero" Length="3:43" SongId="9" TrackNumber="8" Genre="Pop" />
+    </album>
+    <album Title="OK Computer" Id="2">
+      <song Title="Airbag" Length="4:44" SongId="10" TrackNumber="1" Genre="Pop" />
+      <song Title="Incomplete" Length="5.39" SongId="11" TrackNumber="2" Genre="Rock" />
+      <song Title="Subterranean Homesick Alien" Length="4:27" SongId="12" TrackNumber="3" Genre="Pop" />
+      <song Title="Exit Music (For a Film)" Length="4:24" SongId="13" TrackNumber="4" Genre="Pop" />
+      <song Title="Let Down" Length="4:59" SongId="14" TrackNumber="5" Genre="Pop" />
+      <song Title="Karma Police" Length="4:21" SongId="15" TrackNumber="6" Genre="Pop" />
+      <song Title="Fitter Happier" Length="1:57" SongId="16" TrackNumber="7" Genre="Pop" />
+      <song Title="Electioneering" Length="3:50" SongId="17" TrackNumber="8" Genre="Pop" />
+      <song Title="Climbing Up the Walls" Length="4:45" SongId="18" TrackNumber="9" Genre="Pop" />
+      <song Title="No Surprises" Length="3:48" SongId="19" TrackNumber="10" Genre="Pop" />
+      <song Title="Lucky" Length="4:19" SongId="20" TrackNumber="11" Genre="Pop" />
+      <song Title="The Tourist" Length="5:24" SongId="21" TrackNumber="12" Genre="Pop" />
+    </album>
+  </artist>
+  <artist name="Akon">
+    <album Title="Smack that" Id="3">
+      <song Title="Beautiful" Length="4:04" SongId="22" TrackNumber="1" Genre="Song" />
+      <song Title="You are Beautiful" Length="4:04" SongId="23" TrackNumber="1" Genre="Rap" />
+      <song Title="Turn Down For What" Length="3.36" SongId="24" TrackNumber="3" Genre="Trance" />
+      <song Title="Animal" Length="4.50" SongId="29" TrackNumber="4" Genre="Trance" />
+      <song Title="Smack That" Length="3.15" SongId="30" TrackNumber="5" Genre="Rap" />
+    </album>
+  </artist>
+  <artist name="Atif Aslam">
+    <album Title="Doorie" Id="4">
+      <song Title="Doorie" Length="4:29" SongId="25" TrackNumber="1" Genre="sufi" />
+      <song Title="Kuch Is Tarah" Length="3:29" SongId="26" TrackNumber="02" Genre="sufi" />
+      <song Title="Jal" Length="4.54" SongId="27" TrackNumber="3" Genre="Classical" />
+      <song Title="Behne Do" Length="7.44" SongId="28" TrackNumber="4" Genre="Classical" />
+      <song Title="Maula Maula" Length="5.13" SongId="30" TrackNumber="5" Genre="Classical" />
+      <song Title="Tere Mere" Length="5.13" SongId="30" TrackNumber="5" Genre="Classical" />
+      <song Title="Master of Puppet" Length="4.05" SongId="31" TrackNumber="6" Genre="Rock" />
+    </album>
+  </artist>
+</music>

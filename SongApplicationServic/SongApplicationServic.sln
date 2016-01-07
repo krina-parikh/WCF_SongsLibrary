@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongApplicationService", "SongApplicationServic\SongApplicationService.csproj", "{40B9A07D-F55A-4E48-9C0F-67396A1E35E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongInventoryApplication_Client", "..\SongInventoryApplication_Client\SongInventoryApplication_Client\SongInventoryApplication_Client.csproj", "{1F2C8D5F-7D9D-4FC6-BF1E-554F9E86869B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40B9A07D-F55A-4E48-9C0F-67396A1E35E4} = {40B9A07D-F55A-4E48-9C0F-67396A1E35E4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B9A07D-F55A-4E48-9C0F-67396A1E35E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B9A07D-F55A-4E48-9C0F-67396A1E35E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B9A07D-F55A-4E48-9C0F-67396A1E35E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B9A07D-F55A-4E48-9C0F-67396A1E35E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2C8D5F-7D9D-4FC6-BF1E-554F9E86869B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2C8D5F-7D9D-4FC6-BF1E-554F9E86869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2C8D5F-7D9D-4FC6-BF1E-554F9E86869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2C8D5F-7D9D-4FC6-BF1E-554F9E86869B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2778/SongService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/SongApplicationService" />
+  <xs:element name="GetAlbumInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAlbumInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SongApplicationService" minOccurs="0" name="GetAlbumInformationResult" nillable="true" type="q1:ArrayOfAlbumInfo_ReturnType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSongToAlbum">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="albumId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songLength" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trackNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="genre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddSongToAlbumResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/SongApplicationService" minOccurs="0" name="AddSongToAlbumResult" nillable="true" type="q2:SongApplication_ReturnType" />
+        <xs:element minOccurs="0" name="songId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSongInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="songId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="albumId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="albumName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songLength" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trackNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="genre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateSongInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SongApplicationService" minOccurs="0" name="UpdateSongInfoResult" nillable="true" type="q3:SongApplication_ReturnType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveSongInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="albumId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="songName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveSongInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/SongApplicationService" minOccurs="0" name="RemoveSongInfoResult" nillable="true" type="q4:SongApplication_ReturnType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

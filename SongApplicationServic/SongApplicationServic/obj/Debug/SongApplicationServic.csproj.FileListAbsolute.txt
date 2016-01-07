@@ -1,0 +1,5 @@
+F:\work\krina\code_challenge\SongApplicationServic\SongApplicationServic\bin\SongApplicationServic.dll
+F:\work\krina\code_challenge\SongApplicationServic\SongApplicationServic\bin\SongApplicationServic.pdb
+F:\work\krina\code_challenge\SongApplicationServic\SongApplicationServic\obj\Debug\SongApplicationServic.dll
+F:\work\krina\code_challenge\SongApplicationServic\SongApplicationServic\obj\Debug\SongApplicationServic.pdb
+F:\work\krina\code_challenge\SongApplicationServic\SongApplicationServic\obj\Debug\SongApplicationServic.csprojResolveAssemblyReference.cache
